@@ -1,3 +1,5 @@
 # Projekat za II Cortex eliminacioni test 
 
-[Deployed sajt](https://delicate-praline-7feacd.netlify.app)
+[Deployed sajt](cortex-project.netlify.app)
+
+*provjeriti console za sve logove vezane za data pri fetch-ovanju
