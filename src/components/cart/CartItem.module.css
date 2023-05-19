@@ -1,0 +1,40 @@
+.cartItemContainer {
+  border: 1px solid #c9c9c9;
+  outline: none;
+  border-radius: 12px;
+  padding: 5px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.info p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #c9c9c9;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.actions p {
+  font-size: 18px;
+}
+
+.actions img {
+  margin-left: 20px;
+  opacity: 0.7;
+}
+
+.actions img:hover {
+  cursor: pointer;
+  opacity: 1;
+}

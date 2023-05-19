@@ -1,0 +1,65 @@
+p {
+  color: #c9c9c9;
+}
+
+.detailsContainer {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.thumbnail {
+  margin: 0 auto;
+  width: 60%;
+  display: block;
+  border-radius: 16px;
+}
+
+.info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.infoTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.infoTop h1 {
+  margin-bottom: 0;
+}
+
+.infoTop p {
+  margin-top: 0;
+  font-weight: lighter;
+}
+
+.rating {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 17px;
+}
+
+.infoBottom p {
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.price {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.actions {
+  margin: 30px auto;
+  display: flex;
+  width: 80%;
+}
+
+.goBackButton {
+  display: block;
+}

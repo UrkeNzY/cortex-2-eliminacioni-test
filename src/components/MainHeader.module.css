@@ -1,0 +1,46 @@
+header {
+  width: 90%;
+  margin: 0 auto;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header Link {
+  width: 100%;
+}
+
+input {
+  padding: 12px;
+  width: 40%;
+  background-color: #424242;
+  border: 1px solid #808080;
+  border-radius: 16px;
+  outline: none;
+  font-family: inherit;
+}
+
+input,
+input::placeholder {
+  color: #c9c9c9;
+}
+
+input:focus {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.logo {
+  width: 90px;
+}
+
+.cart {
+  width: 28px;
+  opacity: 1;
+}
+
+.cart:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}

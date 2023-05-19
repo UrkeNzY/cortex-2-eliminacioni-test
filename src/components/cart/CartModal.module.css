@@ -1,0 +1,51 @@
+.modalContainer {
+  position: fixed;
+  background-color: #424242;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 16px;
+  width: 30%;
+  min-width: 300px;
+  max-width: 750px;
+}
+
+.cartHeader {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartHeader h2 {
+  margin-bottom: 0;
+}
+
+.cartHeader p {
+  margin-top: 3px;
+  color: #c9c9c9;
+  font-size: 16px;
+}
+
+div .closeButton {
+  font-size: 40px;
+  opacity: 0.65;
+}
+
+div .closeButton:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.totalText {
+  font-size: 22px;
+  font-weight: medium;
+}
+
+.checkoutButton {
+  padding: 12px;
+  width: 40%;
+  font-size: 16px;
+}

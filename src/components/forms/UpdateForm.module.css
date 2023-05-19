@@ -1,0 +1,23 @@
+h1 {
+  text-align: center;
+}
+
+form {
+  margin: 50px auto 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+    margin-bottom: 16px;
+}
+
+input {
+    margin-bottom: 40px;
+}

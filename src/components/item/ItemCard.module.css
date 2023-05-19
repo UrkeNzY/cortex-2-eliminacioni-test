@@ -1,0 +1,84 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.itemContainer {
+  position: relative;
+  background-color: #424242;
+  width: 90%;
+  min-width: 150px;
+  max-width: 350px;
+  border-radius: 18px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.productImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemInfo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  margin-left: 55%;
+}
+
+.itemName {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.itemDescription {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #c9c9c9;
+}
+
+.itemDiscount {
+  background-color: #54a05c;
+  width: 50%;
+  max-width: 100px;
+  text-align: center;
+  padding: 3px;
+  border-radius: 12px;
+  margin: 7px auto;
+}
+
+.cardBottom,
+.itemActions {
+  display: flex;
+  align-items: center;
+}
+
+.cardBottom {
+  justify-content: space-between;
+}
+
+.cardBottom p {
+  font-size: 18px;
+}
+
+.itemActions img {
+  padding: 0 7px;
+}
+
+.itemActions img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
